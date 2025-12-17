@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SKP BRICK</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            /* background-color: #fdae53; */
+            background: linear-gradient(135deg, #fff0de, #a16207);
+        }
+
+        header {
+            background: linear-gradient(135deg, #fff0de, #a16207);
+            color: #fff;
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin-bottom: 10px;
+            font-size: 2.5rem;
+        }
+
+        nav {
+            background: linear-gradient(135deg, #f29b05, #a16207);
+            padding: 12px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+        }
+
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 50px 20px;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        h2 {
+            color: #7c4a1d;
+            margin-bottom: 20px;
+        }
+
+        .about,
+        .products,
+        .why-us,
+        .gallery,
+        .contact {
+            margin-bottom: 5px;
+        }
+
+        .product-list,
+        .why-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+
+        }
+
+        .card {
+            background: linear-gradient(135deg, #f29b05, #a16207);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+        }
+
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 15px;
+        }
+
+        .gallery-grid img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+
+        .contact p {
+            margin: 8px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>SKP Bricks</h1>
+        <p>Strong • Sustainable • Soil-Based Construction Materials</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#products">Products</a>
+        <a href="#why-us">Why Choose Us</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about" class="about">
+        <h2>About Our Business</h2>
+        <p>
+            Owner :- Mr. Babulal Prajapati</br>
+            We believe in honest quality, fair pricing, and reliable supply.</br>
+            From raw material selection to final delivery, every step is carefully monitored to ensure consistent
+            standards.</br>Over from 25 Years, we have earned the trust of builders, contractors, and
+            customers through our commitment to quality and service.
+        </p>
+    </section>
+
+    <section id="products" class="products">
+        <h2>Our Products</h2>
+        <div class="product-list">
+            <div class="card">
+                <h3>Soil Bricks</h3>
+                <p> SIZE 4 x 8</br>
+                    Strong and reliable bricks made from natural soil, ideal for eco-friendly buildings.</br>
+                    Our soil bricks are manufactured using high-quality natural soil and modern
+                    compaction techniques. These bricks offer excellent strength, durability, and
+                    thermal insulation, making them ideal for eco-friendly residential and commercial
+                    construction projects.
+                </p>
+            </div>
+            <div class="card">
+                <h3>Process</h3>
+                <p>
+                    1.Soil Selection.</br>
+                    2.Mixing Preparation.</br>
+                    3.Moulding / Compression.</br>
+                    4.Drying & Curing.</br>
+                    5.Quality Check & Delivery.</br>
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="why-us" class="why-us">
+        <h2>Why you choose.</h2>
+        <div class="why-list">
+            <div class="card">
+                <h3>Good Quality Bricks</h3>
+                <p>Strong and durable bricks suitable for all types of construction.</p>
+            </div>
+
+            <div class="card">
+                <h3>Eco-Friendly</h3>
+                <p>Made from natural soil with less harm to the environment.</p>
+            </div>
+
+            <div class="card">
+                <h3>Affordable Price</h3>
+                <p>Cost-effective bricks that help reduce overall construction cost.</p>
+            </div>
+
+            <div class="card">
+                <h3>Proper Size & Shape</h3>
+                <p>Uniform bricks for easy construction and better finish.</p>
+            </div>
+
+            <div class="card">
+                <h3>On-Time Delivery</h3>
+                <p>Reliable supply and timely delivery of orders.</p>
+            </div>
+        </div>
+    </section>
+    <section id="gallery" class="gallery">
+        <h2>Our Brick Gallery</h2>
+        <div class="gallery-grid">
+
+            <img src="./images/brick2.jpeg" alt="Soil Brick">
+            <img src="./images/brick1.jpeg" alt="Brick Factory">
+            <img src="./images/brick3.jpeg" alt="Brick Stack">
+            <img src="./images/brick4.jpeg" alt="Construction Site">
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p><strong>Owner:</strong> Mr. Babulal Prajapati</p>
+        <p><strong>Mobile:</strong> 998164XXXX</p>
+        <p><strong>Mobile:</strong> 900929XXXX</p>
+        <p><strong>Mobile:</strong> 626497XXXX</p>
+        <p><strong>Address:</strong> Gaytri Nagar, Khajaraya,Indore [M.P.]</p>
+    </section>
+</body>
