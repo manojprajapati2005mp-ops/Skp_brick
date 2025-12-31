@@ -15,11 +15,6 @@
 - Product and process details
 - Image gallery
 - Contact information section
-  
-## 📞 Contact
-
-**Owner:** Mr. Babulal Prajapati  
-📍 Gaytri Nagar, Khajaraya, Indore (M.P.)
 
 ## 📄 License
 This project is created for business presentation purposes.  
